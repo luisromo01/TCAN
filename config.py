@@ -8,7 +8,7 @@ class Config():
         dir_log = "./logs",
         dir_model = "/disk1/haohy/model_save",
         path_results="./results", 
-        dataset_name = 'penn',
+        dataset_name = 'kdd',
         log="log_n", 
         seq_len = 80,
         valid_len = 40,
