@@ -64,6 +64,9 @@ class RawDataset(data.Dataset):
         elif dataset_name == 'mnist':
             corpus = Corpus_mnist(dir_data)
 
+        elif dataset_name == 'kdd':
+            corpus = Corpus_mnist(dir_data)
+
         elif dataset_name == 'wikitext-2':
             if os.path.exists(dir_data + "/corpus") and is_corpus:
                 corpus = pickle.load(open(dir_data + '/corpus', 'rb'))
